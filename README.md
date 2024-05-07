@@ -62,7 +62,7 @@ step: 9500, train loss: 1.7292002439498901, val loss: 1.8803032636642456
 step: 9750, train loss: 1.7212467193603516, val loss: 1.8275359869003296
 ```
 The process above shows the loss reducing. This means the model is correct and the training is reasonable.
-# Results after training
+## Results after training
 Let's see the results after training with giving inputs "Rang Tr"
 ```
 Range Trades inf traders onciple market’s the tall-timing that every.
