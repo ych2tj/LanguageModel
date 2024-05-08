@@ -12,6 +12,8 @@ Because the GPU limiation, the training inputs are 8 block size.
 ## before training results
 Before training I give input string of "Range Tr", then the results are:
 ```
+$python train.py --mode test
+
 Range Trp8-8Yr–h),2"D5LpFpQQ0p”T5r—GzkSzr-DO–H.+whRHw5AsrIHlqsHKD3D9uq”xaT0–3NAO:3Ejks&A:AXXSoGYaoLEi:IL’ps3“h8‘NH+T–)W
 HnDof—XW—lDQtBhP”rXeH—F3FyLl5ODc8F(4‘bo ”—xwwl”MgvsahR+q”FeDm oTL
 HSFhuFeOlikoTPLvBQ7”lR
@@ -20,6 +22,8 @@ The results do not make any sense. The model randomly predict characters.
 ## Training process
 I use a text of trading strategies as example data to train. The text has quite few words, but is enough to see the training performance:
 ```
+$python train.py --mode train
+
 step: 0, train loss: 4.421607971191406, val loss: 4.421889305114746
 step: 250, train loss: 2.4349820613861084, val loss: 2.476231336593628
 step: 500, train loss: 2.2880406379699707, val loss: 2.3123316764831543
