@@ -78,7 +78,7 @@ The results are still not very accurate. However, they are more reasonable. Some
 ## Run the API
 To start the model API,run the api with:
 
-`$uvicorn model_api_test:app'
+`$uvicorn model_api_test:app`
 
 To test the model, in the front service terminal, run:
 
