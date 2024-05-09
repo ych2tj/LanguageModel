@@ -1,5 +1,5 @@
 # Language Model
-This is for learning of the architecture of transformer and training of Languate Model. The transformer is the Large Language Model's core architecture. The English letters are encoded for inputs. The outputs are decoded to show the predictions the English sentences. The leaning is based on the [tutorial video](https://www.youtube.com/watch?v=UU1WVnMk4E8&t=17196s).
+This is for learning of the architecture of transformer and training of Languate Model. The transformer is the Large Language Model's core architecture. The English letters are encoded for inputs. The outputs are decoded to show the predictions the English sentences. The GPT model understanding is based on the [tutorial video](https://www.youtube.com/watch?v=UU1WVnMk4E8&t=17196s). The FastAPI operation is based on the [API ML tutorial video](https://www.youtube.com/watch?v=EUWLdW_i0EQ&t=359s)
 
 # The architecture of the transformer
 The multi-head attention:
@@ -74,5 +74,14 @@ MoRk fincoting strategy
 The man preding the overse sekins. The markets traderns to resessanst on the shigh a trends launchnice Trading sto
 ```
 The results are still not very accurate. However, they are more reasonable. Some English words are correct. I think this shows the model is correct.
+
+## Run the API
+To start the model API,run the api with:
+`$uvicorn model_api_test:app'
+To test the model, in the front service terminal, run:
+`$front_service.py --mode test`
+To train the model, run:
+`$front_service.py --mode train`
+
 
 
